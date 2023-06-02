@@ -25,47 +25,34 @@ body{
 
 }
 
-.navbar {
-    background-color: rgb(255, 255, 255, 0.8);;
+header {
+    background-color: rgb(255, 255, 255, 0.8);
     height: 60px;
     width: 100%;
     position: relative;
-    top: 0;
-    left: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
     z-index: 999;
 }
 
 #logo {
-    display: block;
+    display: relative;
     width: 250px; 
+    top:2px;
     height: auto;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
+nav{
+    position: absolute;
+    right: 5%;
+    word-spacing: 10px;
 }
 
-li a{
-    margin: 500px;
-    margin-right: 10px;
-    
-    font-family: serif;
-    color: black;
+a{
     text-decoration: none;
+    color: #000000;
+    font-family:'Times New Roman';
     font-weight: 600;
-}
 
-p{  margin: 10px;
-    font-size: small;
-    text-align: left;
 }
