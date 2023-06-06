@@ -20,7 +20,6 @@ header {
     display: flex;
     align-items: center;
     padding: 0 20px;
-    z-index: 999;
 }
 
 #logo {
@@ -50,8 +49,8 @@ a:hover{
 aside {
     position: relative;
     background-color: rgba(255, 255, 255, 0.8);
-    top: 9rem;
-    left: 65.5%;
+    top: 10.5%;
+    left: 70%;
     width: 250px;
     padding: 30px;
     border-radius: 10px;
@@ -67,30 +66,62 @@ aside {
 
 section{
     padding: 20px;
-    width: 52rem;
+    padding-top: 500px;
+    width: 65%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.8);
     position: relative;
-    top:38%;
-    left: -25%;
+    top:22%;
+    left: -20%;
+}
 
+h1{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 30px;
 }
 
 #imgpag1{
-    position: relative;
-    width: 700px;
-    height: auto;
+    position: absolute;
+    top:2%;
+    height: 500px;
+    width: 1000px;
     border-radius: 10px;
-    left: 50px;
+    left: 3.5%;
  }
 
  footer{
+    background-color: rgb(255, 255, 255, 0.8);
+    height: 60px;
+    width: 100%;
     position: absolute;
-    border-radius: 10px;
-    width: 90%;
-    top:68rem;
-    left: 4%;
-    background-color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 5%;
+    display: flex;
+    top: 140%;
+    padding: 50px 20px;
+}
 
- }
+h4{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    left: 5%;
+}
+
+#redes{
+    position: absolute;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    left: 5%;
+}
+
+#Padrao{
+    padding-top: 0%;
+    position: static;
+    width: 90%;
+    top:22%;
+}
+
+.capas{
+    height: 300px;
+    width: auto;
+}
